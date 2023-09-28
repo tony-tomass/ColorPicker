@@ -3,18 +3,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="TextView" />
 
-    <TextView
-        android:id="@+id/textView2"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/top_container_FG"
+        android:name="com.example.colorpicker.ColorPickFragment"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="TextView" />
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/bottom_container_FG"
+        android:name="com.example.colorpicker.ColorPickFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
 
 </LinearLayout>
