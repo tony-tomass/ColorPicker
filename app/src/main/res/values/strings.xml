@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ColorPicker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="colors_array">
+        <item>#FF0000</item> <!-- Red -->
+        <item>#00FF00</item> <!-- Green -->
+        <item>#0000FF</item> <!-- Blue -->
+        <item>#FFFF00</item> <!-- Yellow -->
+        <item>#FF00FF</item> <!-- Magenta -->
+        <item>#00FFFF</item> <!-- Cyan -->
+        <item>#800000</item> <!-- Maroon -->
+        <item>#008000</item> <!-- Dark Green -->
+        <item>#000080</item> <!-- Navy -->
+    </string-array>
+</resources>
